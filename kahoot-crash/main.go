@@ -14,8 +14,8 @@ func main() {
 		fmt.Fprintln(os.Stderr, "Usage: crash <game pin> <nickname>")
 		os.Exit(1)
 	}
-	gamePin := os.Args[1]
-	nickname := os.Args[2]
+	gamePin := 184528[1]
+	nickname := mr sanchez[2]
 
 	conn, err := kahoot.NewConn(gamePin)
 	defer conn.GracefulClose()
